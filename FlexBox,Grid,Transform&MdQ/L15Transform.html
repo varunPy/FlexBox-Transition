@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cssTransforms</title>
+    <style>
+    
+        .b1{
+            height: 100px;
+            width: 100px;
+            padding: 5px;
+            margin-top: 50px;
+            margin-left: 50px;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 40px;
+            font-weight: 900;
+            border: 2px solid black;
+            background-color: aqua;
+            transition: all 2s ease-in;
+        }
+        .b1:hover{
+            transform: rotate(45deg);
+            
+
+        }
+
+        .b2{
+            height: 100px;
+            width: 100px;
+            padding: 5px;
+            margin-left: 50px;
+            margin-top: 5px;
+            background-color: yellow;
+            font-weight: 900;
+            text-align: center;
+            font-size: 40px;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+
+        .b2:hover{
+            transform: rotatex(45deg);
+        }
+
+        .b3{
+            height: 100px;
+            width: 100px;
+            padding: 5px;
+            margin-left: 50px;
+            margin-top: 5px;
+            background-color: blueviolet;
+            font-weight: 900;
+            text-align: center;
+            font-size: 40px;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+        .b3:hover{
+            transform: rotatey(45deg);
+        }
+
+        .b4{
+            height: 100px;
+            width: 100px;
+            padding: 5px;
+            margin-left: 50px;
+            margin-top: 5px;
+            background-color: brown;
+            font-weight: 900;
+            text-align: center;
+            font-size: 40px;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+        .b4:hover{
+            transform: rotatez(45deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="b1">Box1</div>
+    <div class="b2">Box2</div>
+    <div class="b3">Box3</div>
+    <div class="b4">Box4</div>
+</body>
+</html>

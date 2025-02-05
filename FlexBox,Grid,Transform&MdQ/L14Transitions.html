@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions</title>
+    <style>
+        .btn{
+            margin-left: 600px;
+            margin-top: 200px;
+            width: 150px;
+            height: 30px;
+            border-radius: 5px;
+            border: 2px solid black;
+            background-color: aqua;
+
+            transition-property: all;
+            transition-duration: 1s;
+            transition-delay: 0s ;
+
+
+           /* transition-timing-function: all 1s ease-in-out 0s;*/
+
+
+
+
+
+        }
+        .btn:hover{
+            background-color: cornflowerblue;
+            height: 32px;
+            width: 155px;
+        }
+        .btn:active{
+            background-color: rgb(82, 158, 82);
+            height: 32px;
+            width: 155px;
+        }
+
+    </style>
+</head>
+<body>
+    <button class="btn">Transitons</button>
+</body>
+</html>

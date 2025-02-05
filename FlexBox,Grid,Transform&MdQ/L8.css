@@ -1,0 +1,41 @@
+*{
+    margin: 5px;
+    padding: 0px;
+}
+
+#h{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(84, 8, 155);
+}
+
+#container{
+    height: 550px;
+    width: 500px;
+    margin-left: 400px;
+    background-color: cadetblue;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+
+}
+#b1{
+    flex-shrink: 4;
+}
+
+#b3{
+    flex-shrink: 0;
+}
+
+#b4{
+    flex-shrink:4
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    background-color: yellow;
+    border: 3px solid black;
+    
+}

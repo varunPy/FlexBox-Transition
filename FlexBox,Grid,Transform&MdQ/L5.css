@@ -1,0 +1,37 @@
+*{
+    margin: 5px;
+    padding: 0px;
+}
+
+#h{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(33, 20, 46);
+}
+
+#container{
+    height: 550px;
+    width: 800px;
+    margin-left: 300px;
+    background-color: cadetblue;
+    border: 3px solid black;
+    display: flex;
+    
+    /* flex Box align items in cross axis*/
+   
+    justify-content: center;
+    
+    /*align items properties*/
+    align-items: center;
+    align-items: end;
+    align-items: start;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: yellow;
+    border: 3px solid black;
+    
+}

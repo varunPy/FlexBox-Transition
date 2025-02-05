@@ -1,0 +1,40 @@
+*{
+    margin: 5px;
+    padding: 0px;
+}
+
+#h{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(85, 67, 102);
+}
+
+#container{
+    height: 550px;
+    width: 800px;
+    margin-left: 300px;
+    background-color: cadetblue;
+    border: 3px solid black;
+    display: flex;
+    
+    /* flex Box align content specify spacing between flex box content*/
+   
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    /*align content properties*/
+    align-content: center;
+    align-content: start;
+    align-content: end;
+   
+    
+}
+.box{
+    height: 120px;
+    width: 120px;
+    
+    text-align:center;
+    background-color: yellow;
+    border: 3px solid black;
+    
+}

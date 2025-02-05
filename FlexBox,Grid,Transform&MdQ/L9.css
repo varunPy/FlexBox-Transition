@@ -1,0 +1,36 @@
+*{
+    margin: 5px;
+    padding: 0px;
+}
+
+#h{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(30, 12, 46);
+}
+
+#container{
+    height: 550px;
+    width: 500px;
+    margin-left: 400px;
+    background-color: cadetblue;
+    border: 3px solid black;
+    display: flex;
+    
+}
+#b1{
+    flex-grow: 1;
+}
+
+#b4{
+    flex-grow: 1;
+}
+.box{
+    height: 75px;
+    width: 75px;
+    text-align: center;
+    background-color: yellow;
+    border: 3px solid black;
+    
+    
+}

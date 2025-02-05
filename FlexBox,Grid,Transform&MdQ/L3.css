@@ -1,0 +1,36 @@
+*{
+    margin: 5px;
+    padding: 0px;
+}
+
+#h{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(179, 85, 8);
+}
+
+#container{
+    height: 550px;
+    width: 800px;
+    margin-left: 300px;
+    background-color: cadetblue;
+    border: 3px solid black;
+    display: flex;
+    
+    /* justify-content properties*/
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: yellow;
+    border: 3px solid black;
+    
+}
